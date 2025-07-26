@@ -54,6 +54,10 @@ h1 {
   z-index: 999;
 }
 
+audio {
+  display: none;
+}
+
 .popup-content {
   background: #fff;
   padding: 30px;
