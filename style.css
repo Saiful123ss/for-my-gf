@@ -1,24 +1,14 @@
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Comic Sans MS', cursive;
   background: #ffe6f0;
   text-align: center;
-  padding: 50px 20px;
+  padding: 50px;
   color: #333;
-
 }
 
 h1 {
-  font-family: 'Pacifico', cursive;
   font-size: 2.5em;
   margin-bottom: 30px;
-}
-
-.her-photo {
-  width: 180px;
-  border-radius: 50%;
-  border: 4px solid #ffc0cb;
-  margin-bottom: 20px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 .envelopes {
@@ -26,7 +16,6 @@ h1 {
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
-  margin-bottom: 50px;
 }
 
 .envelope {
@@ -36,7 +25,6 @@ h1 {
   cursor: pointer;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   transition: transform 0.2s;
-  font-size: 18px;
 }
 
 .envelope:hover {
@@ -52,28 +40,15 @@ h1 {
   background: rgba(0,0,0,0.6);
   justify-content: center;
   align-items: center;
-  z-index: 999;
-}
-audio {
-  display: none;
 }
 
 .popup-content {
   background: #fff;
   padding: 30px;
   border-radius: 15px;
-  width: 85%;
+  width: 80%;
   max-width: 500px;
   position: relative;
-  text-align: left;
-  font-size: 18px;
-  line-height: 1.6;
-}
-
-.popup-content img {
-  width: 100%;
-  border-radius: 10px;
-  margin-top: 15px;
 }
 
 .close {
