@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Open When...</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+  <img src="her-picture.jpg" alt="Her Smile 😍" class="her-photo">
+  <h1>💌 Open When...</h1>
+  <div class="envelopes">
+    <div class="envelope" onclick="openLetter('sad')">You're sad</div>
+    <div class="envelope" onclick="openLetter('happy')">You're happy</div>
+    <div class="envelope" onclick="openLetter('angry')">You're angry</div>
+    <div class="envelope" onclick="openLetter('miss')">You miss me</div>
+  </div>
+
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <span class="close" onclick="closeLetter()">&times;</span>
+      <div id="letterText"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
